@@ -3,3 +3,4 @@ time="2024-09-09 21:09:47" level=info msg="Server shutdown" Environment=Producti
 time="2024-09-09 21:09:47" level=info msg="shutting down the server" Environment=Production
 time="2024-09-09 21:10:10" level=info msg="Skipping AutoMigrate and AutoDrop." Environment=Production
 time="2024-09-09 21:10:39" level=info msg="Skipping AutoMigrate and AutoDrop." Environment=Development
+time="2024-09-09 21:33:53" level=info msg="Skipping AutoMigrate and AutoDrop." Environment=Development

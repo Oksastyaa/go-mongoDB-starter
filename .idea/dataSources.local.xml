@@ -2,18 +2,8 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="GO-242.21829.220">
     <data-source name="go-mongoDB-starter@localhost" uuid="527cd6bb-6a5e-4ded-809b-40baac464b92">
-      <database-info product="Mongo DB" version="7.0.12" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.18" dbms="MONGO" exact-version="7.0.12" exact-driver-version="1.18" />
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>ossigit</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema">
-            <name qname="@" />
-            <name qname="cluster0" />
-          </node>
-        </introspection-scope>
-      </schema-mapping>
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" />
+      <schema-mapping />
     </data-source>
   </component>
 </project>
