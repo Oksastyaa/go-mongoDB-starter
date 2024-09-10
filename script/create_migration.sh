@@ -53,7 +53,6 @@ package migrations
 import (
 	"context"
 	"time"
-
 	"github.com/sirupsen/logrus"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/bson"
@@ -76,10 +75,9 @@ func $function_name(database *mongo.Database, indexField string) *Migration {
 			ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 			defer cancel()
 
-			// Dynamic index options for the given field
 			indexOptions := options.Index().SetUnique(true)
 			indexModel := mongo.IndexModel{
-				Keys:    bson.M{indexField: 1}, // Dynamic field for index creation
+				Keys:    bson.M{indexField: 1},
 				Options: indexOptions,
 			}
 
