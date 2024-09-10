@@ -43,3 +43,15 @@ func (r *RegisterInput) Validate() error {
 	validate := validator.New()
 	return validate.Struct(r)
 }
+
+// UserResponse struct is used for user response
+type UserResponse struct {
+	Username  string `json:"username"`
+	Email     string `json:"email"`
+	Address   string `json:"address"`
+	Phone     string `json:"phone"`
+	Age       int    `json:"age"`
+	UserToken struct {
+		Token string `json:"token"`
+	}
+}

@@ -25,17 +25,18 @@ func main() {
 	}
 
 	// Config
-	_, err := database.InitMongoDB()
+	db, err := database.InitMongoDB()
 	if err != nil {
 		logrus.Fatalf("Error connecting to database: %v", err)
 	}
 
-	// init repo,service ,controller
 	e := echo.New()
+	//	init controller
+	c := NewController(db, os.Getenv("JWT_SECRET"))
 	app := Config{}
 
 	// Routes
-	//app.Routes(e, orderController)
+	app.Routes(e, c, []byte(os.Getenv("JWT_SECRET")))
 	// Server
 	app.server(e)
 
