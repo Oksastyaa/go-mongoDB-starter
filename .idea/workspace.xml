@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bd9de335-3404-493c-ac10-2d47fbf618de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/controller/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/controller/user_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/service/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/service/user_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build go-mongoDb-starter/cmd/app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -57,6 +63,22 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="go build go-mongoDb-starter/cmd/app" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-mongoDb-starter" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-mongoDb-starter/cmd/app" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/app/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go-mongoDb-starter/cmd/app" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

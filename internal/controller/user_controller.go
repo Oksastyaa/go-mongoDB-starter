@@ -68,7 +68,7 @@ func (c *UserController) LoginUser(ctx echo.Context) error {
 
 	user, err := c.userService.LoginUser(ctx.Request().Context(), &req)
 	if err != nil {
-		return pkg.ResponseJson(ctx, http.StatusInternalServerError, nil, err.Error())
+		return pkg.ResponseJson(ctx, http.StatusNotFound, nil, "invalid Email or password")
 	}
 
 	response := models.UserResponse{

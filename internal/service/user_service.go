@@ -51,7 +51,7 @@ func (u *userService) LoginUser(ctx context.Context, req *models.LoginInput) (*m
 	}
 
 	if !pkg.CheckPasswordHash(req.Password, user.Password) {
-		return nil, errors.New("invalid password")
+		return nil, errors.New("invalid email or password")
 	}
 
 	token, err := pkg.GenerateToken(user.ID.Hex(), u.jwtSecret)
